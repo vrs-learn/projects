@@ -1,0 +1,22 @@
+# set up the virtual environment named venv  :
+
+python -m venv venv
+
+# Activate the new Virtual environment
+
+C:\Vaibhav_Backup\Vaibhav\Flask\myproj>venv\Scripts\activate
+(venv) C:\Vaibhav_Backup\Vaibhav\Flask\myproj>
+
+#
+# on Windows, set the variable as below..
+# and then just run as below :
+(venv) $ set FLASK_APP=microblog.py
+(venv) $ flask run
+
+#
+# to set the variables always , install python-dotenv
+(venv) $ pip install python-dotenv
+
+#
+# install flask-WTF
+pip install flask-wtf
